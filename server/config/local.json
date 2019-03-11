@@ -1,0 +1,16 @@
+{
+  "port": 9000,
+  "package-json": "../package.json",
+  "log": {
+    "level": "info"
+  },
+  "server": {
+    "apiBase": "http://localhost:9000/api/v1",
+    "secret": "fourier-hardamard73238273hsssd",
+    "mdSecret": "shaoLaoTheUndying-78nk-hlljsldj",
+    "mongo": {
+      "uri": "mongodb://localhost/gameOfLife",
+      "options": {}
+    }
+  }
+}

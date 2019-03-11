@@ -1,0 +1,38 @@
+FORMAT: 1A
+
+# Ceruba API Server
+
+## Data Structures
+
+### Echo
+
++ id (string, required)
+
+## Group Echo
+
+## Echos [/api/v1/echo/{id}]
+
++ Parameters
+
+    + id (String) - ID of the echo
+
+### View an echo [GET]
+
+Returns an echo.
+
++ Response 200 (application/json)
+
+  + Attributes
+
+      + data (Echo)
+
++ Response 500
+
+## Group Status
+
+## Health [/api/v1/health]
+
+### View health [GET]
+
++ Response 200
++ Response 500
